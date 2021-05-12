@@ -1,0 +1,8 @@
+uuid: c7727e8b-a876-4a6b-8c8f-9c078fdcd864
+langcode: en
+status: true
+dependencies: {  }
+name: 'Produktu Kataglogs'
+vid: kroduktu_kataglogs
+description: ''
+weight: 0

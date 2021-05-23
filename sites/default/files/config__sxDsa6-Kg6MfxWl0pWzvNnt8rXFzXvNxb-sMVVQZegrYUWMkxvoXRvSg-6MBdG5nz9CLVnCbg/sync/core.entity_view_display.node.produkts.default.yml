@@ -1,0 +1,88 @@
+uuid: 8b23e622-8cad-4147-bf1c-a7cb385c8370
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.produkts.body
+    - field.field.node.produkts.field_cena
+    - field.field.node.produkts.field_kategorija
+    - field.field.node.produkts.field_lidzigi_produkti
+    - field.field.node.produkts.field_pieejamiba_noliktava
+    - field.field.node.produkts.field_produkta_attels
+    - field.field.node.produkts.field_razotaja_nosaukums
+    - node.type.produkts
+  module:
+    - image
+    - text
+    - user
+id: node.produkts.default
+targetEntityType: node
+bundle: produkts
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_cena:
+    weight: 102
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_kategorija:
+    weight: 106
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_lidzigi_produkti:
+    weight: 107
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_pieejamiba_noliktava:
+    weight: 103
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_produkta_attels:
+    weight: 105
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_razotaja_nosaukums:
+    weight: 104
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

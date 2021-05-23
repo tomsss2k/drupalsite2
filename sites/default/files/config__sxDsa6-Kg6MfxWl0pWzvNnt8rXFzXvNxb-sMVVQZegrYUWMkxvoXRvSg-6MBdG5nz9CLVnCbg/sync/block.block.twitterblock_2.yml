@@ -1,0 +1,36 @@
+uuid: eb7ca92f-efd2-4651-91df-6b26cc871e71
+langcode: en
+status: true
+dependencies:
+  module:
+    - twitter_block
+  theme:
+    - olivero
+id: twitterblock_2
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: twitter_block
+settings:
+  id: twitter_block
+  label: 'Twitter block'
+  provider: twitter_block
+  label_display: visible
+  username: Blizzard_Ent
+  theme: ''
+  link_color: ''
+  width: ''
+  height: ''
+  chrome:
+    noheader: '0'
+    nofooter: '0'
+    noborders: '0'
+    noscrollbar: '0'
+    transparent: '0'
+  border_color: ''
+  language: ''
+  tweet_limit: ''
+  related: ''
+  polite: polite
+visibility: {  }

@@ -1,0 +1,30 @@
+uuid: a926c4da-9347-4a08-a5ae-3b5843834b3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.smart_tv.body
+    - node.type.smart_tv
+  module:
+    - text
+    - user
+id: node.smart_tv.teaser
+targetEntityType: node
+bundle: smart_tv
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

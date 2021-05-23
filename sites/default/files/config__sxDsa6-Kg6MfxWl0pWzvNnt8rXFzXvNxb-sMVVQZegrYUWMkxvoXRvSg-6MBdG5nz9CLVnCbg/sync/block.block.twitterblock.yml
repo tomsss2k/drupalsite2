@@ -1,0 +1,36 @@
+uuid: 640f16cc-991f-458f-92f2-b5df37a085cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - twitter_block
+  theme:
+    - bartik
+id: twitterblock
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: twitter_block
+settings:
+  id: twitter_block
+  label: 'Twitter block'
+  provider: twitter_block
+  label_display: visible
+  username: Blizzard_Ent
+  theme: ''
+  link_color: ''
+  width: ''
+  height: ''
+  chrome:
+    noheader: '0'
+    nofooter: '0'
+    noborders: '0'
+    noscrollbar: '0'
+    transparent: '0'
+  border_color: ''
+  language: ''
+  tweet_limit: ''
+  related: ''
+  polite: polite
+visibility: {  }

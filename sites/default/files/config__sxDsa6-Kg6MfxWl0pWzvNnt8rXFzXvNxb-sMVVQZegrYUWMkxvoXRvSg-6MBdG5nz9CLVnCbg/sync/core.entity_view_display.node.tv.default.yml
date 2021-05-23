@@ -1,0 +1,28 @@
+uuid: 9bbce866-2ce7-4546-bb89-88cef9cbac8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.tv.body
+    - node.type.tv
+  module:
+    - text
+    - user
+id: node.tv.default
+targetEntityType: node
+bundle: tv
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

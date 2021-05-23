@@ -1,0 +1,28 @@
+uuid: f7ef24b5-2641-4371-8ad2-9d9f86ba06c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.smart_tv.body
+    - node.type.smart_tv
+  module:
+    - text
+    - user
+id: node.smart_tv.default
+targetEntityType: node
+bundle: smart_tv
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
